@@ -1,0 +1,17 @@
+{
+  "name": "optiflow-backend-node",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OptiFlow Node backend (Express) whose request validation runs in Zod",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-concurrency=1 \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "heap-js": "^2.7.1",
+    "zod": "^4.6.5"
+  }
+}

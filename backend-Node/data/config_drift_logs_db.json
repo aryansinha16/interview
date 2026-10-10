@@ -1,0 +1,15 @@
+[
+  {
+    "id": "diff_c71aa0",
+    "config_id": "cfg_staging_7",
+    "source_env": "staging",
+    "target_env": "production",
+    "drift_score": 12,
+    "diff_details": [
+      {
+        "op": "replace",
+        "line": "server_port"
+      }
+    ]
+  }
+]

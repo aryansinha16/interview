@@ -1,0 +1,19 @@
+[
+  {
+    "id": "sim_19cd4e",
+    "customer_id": "cust_4821",
+    "cost_deltas": [
+      4,
+      2,
+      7,
+      6,
+      9,
+      14,
+      4,
+      1
+    ],
+    "spend_budget": 10,
+    "waiver_credits": 2,
+    "furthest_month": 4
+  }
+]
