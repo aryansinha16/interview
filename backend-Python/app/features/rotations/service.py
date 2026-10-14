@@ -3,12 +3,12 @@ from app.shared.db import new_id, now_iso
 from .dao import RotationDAO
 from .dto import RotationRequest, RotationResponse
 
-#y(n,k) = (y(n-1,k)+k)/n
+#y(n,k) = (y(n-1,k)+k)%n
 def find_survivor(pool_size: int, rotation_step: int) -> int:
     survivor = 0
     if survivor == 1:
         return 0
-    return (find_survivor(survivor-1,rotation_step)+rotation_step)/survivor
+    return (find_survivor(survivor-1,rotation_step)+rotation_step)%survivor
 
 
 class RotationService:
